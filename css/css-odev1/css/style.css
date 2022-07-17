@@ -1,0 +1,33 @@
+body {
+  background-color: antiquewhite;
+}
+
+div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex; /*yan yana gelmesi için flex kullandım*/
+    flex-direction: column; /*hepsi yan yana gelmesin, parça parça ayrılsın diye bunu yaptım*/
+    align-items: center; /*div içinde yer alan ögeleri center diyerek ortaladım*/
+   /* justify-content: center;*/
+  }
+  
+  div ul li {
+    display: inline-block; 
+    margin: 10px;
+  }
+  
+  img {
+    width: 300px;
+  }
+  
+  .books {
+    margin: 20px;
+  }
+
+  h1 {
+    color: blueviolet;
+  }
+
+  h3 {
+    color: crimson;
+  }
