@@ -8,7 +8,7 @@ div {
     display: flex; /*yan yana gelmesi için flex kullandım*/
     flex-direction: column; /*hepsi yan yana gelmesin, parça parça ayrılsın diye bunu yaptım*/
     align-items: center; /*div içinde yer alan ögeleri center diyerek ortaladım*/
-   /* justify-content: center;*/
+    justify-content: center;
   }
   
   div ul li {
@@ -20,7 +20,7 @@ div {
     width: 300px;
   }
   
-  .books {
+  .makine {
     margin: 20px;
   }
 

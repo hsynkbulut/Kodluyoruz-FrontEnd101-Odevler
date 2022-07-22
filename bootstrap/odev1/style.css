@@ -1,0 +1,22 @@
+.color-pinkred
+    {
+        color: #db0360;
+}
+.color-darkyellow{
+    color: #c9980f;
+}
+
+.color-blueviolet {
+    color: blueviolet;
+}
+
+.body{
+    background-color:#E9ECEF;
+}
+
+.pill{
+    background-color: grey; 
+    color: white; 
+    font-size: 9px;
+    
+}
