@@ -31,15 +31,15 @@
 	
 *Average Case:* 
 
-    O(N^2) 
+    O(n^2) 
 
 *Worst Case:* 
 
-    O(N^2)
+    O(n^2)
 
 *Best Case:* 
 
-    O(N) 
+    O(n) 
 
 **3- Time Complexity: *(Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.)***
 
@@ -57,7 +57,7 @@
 
 **4- Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.**
 
-    Average Case
+    18 sayısı, Average Case kapsamına girer.
 
 ## [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
