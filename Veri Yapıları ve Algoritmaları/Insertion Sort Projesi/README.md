@@ -1,8 +1,7 @@
 # Insertion Sort Projesi
+## **A) [22,27,16,2,18,6] -> Insertion Sort**
 
-## [22,27,16,2,18,6] -> Insertion Sort
-
-** 1. Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+**1- Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.**
 
 *Başlangıç* 
 
@@ -28,28 +27,37 @@
 
     [2,6,16,18,22,27]
 
-** 2. Big-O gösterimini yazınız.
+**2- Big-O gösterimini yazınız.**
+	
+*Average Case:* 
 
-```
-Best case: O=(n)
-Average case: O=(n^2)
-Worst case: O=(n^2)
-```
+    O(N^2) 
 
-** 3. Time Complexity
+*Worst Case:* 
 
-```
-Best case: [2,6,16,18,22,27]
-Worst case: [27,22,18,16,6,2]
-```
+    O(N^2)
 
-** 4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer?
+*Best Case:* 
 
-```
-[2,6,16,18,22,27]
+    O(N) 
 
-18 sayısı Average Case kapsamına girer.
-```
+**3- Time Complexity: *(Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.)***
+
+*Average case:* 
+
+    16, 18
+
+*Worst case:* 
+
+    27
+
+*Best case:*
+
+    2
+
+**4- Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.**
+
+    Average Case
 
 ## [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
