@@ -5,7 +5,7 @@ myName.innerHTML = userName
 
 let gunler = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"]
 
-function showTime() {
+function showTime() { /*Fonksiyonu tanımladık, oluşturduk*/
     const today = new Date();
     let saat = today.getHours();
     let dakika = today.getMinutes();
@@ -30,4 +30,4 @@ function showTime() {
     return i;
   }
 
-  showTime()
+  showTime() /*Daha önceden tanımladığımız fonksiyonu burada çağırıyoruz ve çalışmasını sağlıyoruz*/
